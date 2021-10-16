@@ -3,9 +3,7 @@
 
 using namespace std;
 
-/* Noman Mustafa Mehar
-   Section: SE-Q1
-   ROll-No: 21i-1235 */
+
 
 // programm should be run and compile on GNU/linux platform with g++ compiler
 // cause unistd.h header is specific to GNU/linux platform
