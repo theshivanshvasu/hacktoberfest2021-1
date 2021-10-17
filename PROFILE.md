@@ -34,3 +34,4 @@
 ## Ankit Singh 
 * Email: ankitsinghsindram@gmail.com
 * Github: [Ankii077](https://github.com/Ankii077)
+* LinkedIn: [Ankit Singh](https://www.linkedin.com/in/Ankii077/)
