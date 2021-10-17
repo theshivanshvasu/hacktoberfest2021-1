@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculaor</title>
+    <style>
+        body{
+            background-color: #789;
+            text-align: center;
+            font-family: calibri;
+            font-size: 20px;
+        }
+        #calc{
+            width: 340px;
+            background-color: white;
+            margin: auto;
+            border-radius: 6px;
+            box-shadow: 0px 2px 10px 0 #0002;
+        }
+        h1{
+            border-radius:  6px 6px 0px 0px;
+            padding: 5px;
+            background-color: #ddd;
+        }
+        input{
+            padding: 6px;
+            border: 1px solid #aaa;
+            outline: none !important;
+            border-radius: 4px;
+        }
+        input:hover{
+            padding: 6px;
+            border: 1px solid #000;
+        }
+        input:focus{
+            padding: 6px;
+            border: 1px solid royalblue;
+        }
+        select{
+            padding:4px 15px;
+            font-size: 18px;
+            outline: none !important;
+        }
+        #btn{
+            padding: 6px 20px;
+            background-color: royalblue;
+            border-radius: 4px;
+            color: white;
+            border: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+        <div id="calc">
+            <h1>TIP CALCULATOR</h1>
+            <p>How much was your bill?</p>
+            <div>
+                ₹ <input type="text" id="amount">
+            </div>
+
+            <p>How was you service?</p>
+            <div>
+                <select name="service" id="service">
+                    <option value="">--Rate your Service--</option>
+                    <option value="0.15">&starf;&starf;&starf;&starf;&starf;</option>
+                    <option value="0.1">&starf;&starf;&starf;&starf;&star;</option>
+                    <option value="0.06">&starf;&starf;&starf;&star;&star;</option>
+                    <option value="0.03">&starf;&starf;&star;&star;&star;</option>
+                    <option value="0.01">&starf;&star;&star;&star;&star;</option>
+                </select>
+            </div>
+
+            <p>How many people are sharing the bill?</p>
+
+            <input type="number" name="people" id="people" min="1" max="99" value="1"> People
+<br><br>
+            <button id="btn">Calculate</button>
+<br><br>
+            <div id="tip"></div>
+        </div>
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
