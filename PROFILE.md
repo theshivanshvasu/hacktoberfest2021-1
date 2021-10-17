@@ -32,6 +32,6 @@
 * LinkedIn: [Muhammad Adipurna Kusumawardana](https://www.linkedin.com/in/adipurnamk/)
 
 ## Ankit Singh 
-* Email: ankitsinghsindram@gmail.com
+* Email: ankitsinghsindram1@yahoo.com
 * Github: [Ankii077](https://github.com/Ankii077)
 * LinkedIn: [Ankit Singh](https://www.linkedin.com/in/Ankii077/)
