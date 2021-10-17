@@ -1,14 +1,14 @@
 // A function to convert kilograms to other measurements (pounds, ounces, grams, stones)
 
-function kilogramsConverter(weigth) {
-  if (typeof weigth !== "number") {
+function kilogramsConverter(weight) {
+  if (typeof weight !== "number") {
     throw new Error("Input must be a valid number.");
   }
 
-  const pounds = weigth * 2.2046;
-  const ounces = weigth * 35.274;
-  const grams = weigth * 1000;
-  const stones = weigth * 0.1574;
+  const pounds = weight * 2.2046;
+  const ounces = weight * 35.274;
+  const grams = weight * 1000;
+  const stones = weight * 0.1574;
 
   return {
     pounds,
